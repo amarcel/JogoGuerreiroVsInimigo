@@ -6,6 +6,9 @@ import br.jogo.personagem.Guerreiro;
 import br.jogo.personagem.Zumbi;
 import java.util.Scanner;
 
+
+/*TESTE GITHUB*/
+
 public class JogoGuerreiroVsInimigos {
 
     public static void main(String[] args) {
