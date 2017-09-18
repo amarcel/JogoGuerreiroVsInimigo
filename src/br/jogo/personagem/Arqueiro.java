@@ -11,7 +11,7 @@ public class Arqueiro extends Personagem implements IAcao {
     private final double MAX_ARMADURA = 2.5;
     
     public Arqueiro() { }
-    public Arqueiro(String nome){
+    public Arqueiro(String nome) throws Exception {
         super(nome);
     }
 

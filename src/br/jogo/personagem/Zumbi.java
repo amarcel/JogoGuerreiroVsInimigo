@@ -12,7 +12,7 @@ public class Zumbi extends Personagem implements IAcao {
     
     //construtores:
     public Zumbi() { }
-    public Zumbi(String nome){
+    public Zumbi(String nome) throws Exception {
         super(nome);
     }
     

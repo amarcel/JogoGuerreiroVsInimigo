@@ -12,7 +12,7 @@ public class Guerreiro extends Personagem implements IAcao {
     
     //construtores:
     public Guerreiro() { }
-    public Guerreiro(String nome){
+    public Guerreiro(String nome) throws Exception {
         super(nome);
     }
     @Override

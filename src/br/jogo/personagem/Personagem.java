@@ -7,20 +7,21 @@ public class Personagem {
     
     //construtores (SOBRECARGA)
     public Personagem() { }
-    public Personagem(String nome) {
-        this.nome = nome;
+    public Personagem(String nome) throws Exception {
+        setNome(nome);
     }
-    public Personagem(String nome, double vida) {
-        this.nome = nome;
+    public Personagem(String nome, double vida) 
+        throws Exception {
+        setNome(nome);
         this.vida = vida;
     }
     
     //métodos setters e getters (ENCAPSULAMENTO):
-    public void setNome(String nome){
+    public void setNome(String nome) throws Exception {
         if ( nome.trim().length() > 1 ) {
             this.nome = nome;
         } else {
-            System.out.println("[ERRO] Nome inválido!");
+            throw new Exception("[ERRO] Nome inválido!");
         }
     }
     public String getNome(){
